@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.admin.appmaps.MapsActivity"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="80dp">
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Search" />
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnSearch"
+            android:layout_toRightOf="@+id/btnSearch" />
+
+        <Button
+            android:id="@+id/btnChangeType"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnSearch"
+            android:layout_marginRight="20dp"
+            android:text="change type" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnChangeType"
+            android:text="Địa điểm lân cận"
+            android:id="@+id/btnLanCan"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Distance Duration"
+        android:textColor="@color/colorPrimary" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lvPlaces">
+
+    </ListView>
+
+
+</RelativeLayout>
