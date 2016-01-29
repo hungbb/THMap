@@ -8,6 +8,6 @@ Tìm các điểm lân cận sử dụng google map API
    + Ứng dụng chưa được tối ưu về tốc độ với lượng dữ liệu lớn.
    + Chưa có chức năng hiển thị khoảng cách từ điểm ta chọn đến vị trí hiện tại.
    + Với điều kiện mạng chập chờn thì ứng dụng sẽ bị đơ nhưng vẫn tiếp tục xử lý
--Hướng khắc phục:
+- Hướng khắc phục:
   + Sử dụng thêm multi thread để tối ưu việc tải dữ liệu trên mạng về
   + Sử dụng thêm Google Map API về tìm đường và khoảng cách giữa 2 điểm trên map
