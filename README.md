@@ -1,6 +1,7 @@
 # THMap
 Tìm các điểm lân cận sử dụng google map API
 
+- Ứng dụng chạy trên điện thoại Android (test trên máy Google Nexus 4 4.4.4 Kitkat API 19) có hỗ trợ GPS và internet.
 - Ứng dụng sử dụng Google map API để hiển thị map và Google place API để liệt kê các địa điểm lân cận
 - Để sử dụng: Sau khi khởi chạy ứng dụng, cần phải bật GPS để xác định vị trí hiện tại, sau đó trên màn hình ứng dụng, ta bấm vào nút xác định vị trí hiện tại. Khi người dùng bấm vào button Địa điểm lân cận trên map sẽ đánh dấu các địa điểm lân cận và có 1 list các địa điểm lân cận  và thông tin (icon, thông tin chi tiết). Khi ta bấm vào 1 địa điểm trên list thì map sẽ tự động chỉnh camera zoom về vị trí đó, khi ta bấm vào điểm đánh dấu trên map sẽ hiển thị tên của địa điểm đó.
 - Hạn chế:  
