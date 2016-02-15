@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">THMap</string>
     <string name="title_activity_maps">Map</string>
+    <string name="cancel">cancel</string>
+    <string name="diadiem">diadiem</string>
+    <string name="bandangodau">bandangodau</string>
+    <string name="avatar">avatar</string>
+    <string name="name_venues">name venues</string>
+    <string name="add_venues">add venues</string>
 </resources>
